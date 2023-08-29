@@ -1,3 +1,887 @@
+    1  ls
+    2  whois google.com
+    3  ifconfig
+    4  whois nintendo.com
+    5  ifconfig
+    6  man wget
+    7  man get
+    8  man curl
+    9  man curl
+   10  man ls
+   11  man
+   12  man man
+   13  help
+   14  man man
+   15  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   16  Joseph71180
+   17  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   18  71180
+   19  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   20   brew install git
+   21  $ brew install git
+   22  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   23  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+   24  clear
+   25  brew install git
+   26  $ brew install git
+   27  $ brew install git
+   28  $ brew install git
+   29  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   30  bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   31  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   32   brew install git
+   33  brew version
+   34  brew --version
+   35  git --version
+   36  vim .bash_profile
+   37  flutter --version
+   38  flutter --version
+   39  git --version
+   40  flutter --version
+   41  $ flutter --version
+   42  flutter doctor
+   43  flutter doctor
+   44  vim .bash
+   45  vim .bash_profile
+   46  flutter --version
+   47  git --version
+   48  flutter --version
+   49  flutter doctor
+   50  vim .bash_profile
+   51  vim .bash_profile
+   52  vim .bash_profile
+   53  flutter --version
+   54  flutter --version
+   55  flutter --version
+   56  flutter --version
+   57  flutter flutter doctor\n
+   58  flutter doctor
+   59  echo $PATH
+   60  vim bash_profile
+   61  flutter --version
+   62  flutter --version
+   63  flutter doctor
+   64  flutter doctor
+   65  vim >bash_profile
+   66  vim .bash_profile
+   67   flutter --version
+   68  $flutter --version
+   69  export PATH="$PATH:'pwd'/Users/josephhawkins/Devloper/flutter/bin"\n
+   70  flutter docotor
+   71  flutter doctor
+   72  flutter doctor -v
+   73  ^[[200~export PATH="$PATH:/Users/josephhawkins/Devloper/flutter/bin"
+   74  clone git clone -b beta https://github.com/flutter/flutter.git
+   75   git clone -b beta https://github.com/flutter/flutter.git
+   76  export PATH=$PWD/flutter/bin:$PATH
+   77  flutter doctor
+   78  flutter doctor
+   79  flutter --version
+   80  t
+   81  flutter --version
+   82  flutter doctor
+   83   flutter doctor
+   84  vim .bash_profile
+   85  flutter
+   86  git
+   87  clera
+   88  clear
+   89  /Applications/BlueJ.app/Contents/JDK/Home/bin/java ; exit;
+   90  /Users/josephhawkins/Downloads/Undertale\ Yellow\ Demo\ 1.1.app/Contents/MacOS/Mac_Runner 
+   91  /Applications/BlueJ.app/Contents/JDK/Home/bin/java ; exit;
+   92  /Users/josephhawkins/Downloads/Undertale\ Yellow\ Demo\ 1.1.app/Contents/MacOS/Mac_Runner 
+   93  /Users/josephhawkins/Downloads/Undertale\ Yellow\ Demo\ 1.1.app/Contents/MacOS/Mac_Runner 
+   94  /Users/josephhawkins/Downloads/UTYMacFix/upx 
+   95  /Users/josephhawkins/Downloads/UTYMacFix 
+   96  sayThe first argument is the Argument of Motion. In summary Objects are in motion. Everything in motion was put in motion by something else that was in motion. There needs to be a starting point for the universe because Aquinas believes that an infinite regress is impossible. So that means that there had to be a first mover, something that is unmovable, and that is God.\n
+   97  say The first argument is the Argument of Motion. In summary Objects are in motion. Everything in motion was put in motion by something else that was in motion. There needs to be a starting point for the universe because Aquinas believes that an infinite regress is impossible. So that means that there had to be a first mover, something that is unmovable, and that is God.\n
+   98  dotnet
+   99  dotnet
+  100  madlibs.py
+  101  python 3 madlibs.py
+  102  python3 madlibs.py
+  103  python python3 madlibs.py
+  104  python3 madlibs.py
+  105  python python3 madlibs.py
+  106  python3 madlibs.py
+  107  python3 madlibs.py
+  108  /Users/josephhawkins/Documents/Python_12Projects/1PythonProject/madlibs.py
+  109  python3 /Users/josephhawkins/Documents/Python_12Projects/1PythonProject/madlibs.py
+  110  pwd
+  111  open /Users/josephhawkins\n
+  112  open /Users/josephhawkins\n
+  113  ls
+  114  ls
+  115  cd Movies
+  116  pwd
+  117  ls
+  118  cd ..
+  119  pwd
+  120  ls
+  121  cd ..
+  122  pwd
+  123  cd .
+  124  pwd
+  125  clear
+  126  pwd
+  127  ls
+  128  cd josephhawkins
+  129  ls
+  130  cd ..
+  131  cd ..
+  132  pwd
+  133  ls
+  134  cd Users
+  135  pwd
+  136  ls
+  137  k
+  138  K
+  139  cd ~
+  140  pwd
+  141  open
+  142  open josephhawkins
+  143  pwd
+  144  touch test_file.txt
+  145  ls
+  146  open test_file.txt 
+  147  nano test_file.txt
+  148  history
+  149  open test_file.txt
+  150  rm test_file.txt
+  151  pwd
+  152  ls
+  153  mkdir test_directory
+  154  pwd
+  155  ls
+  156  cd test_directory
+  157  touch test_file.txt
+  158  ls
+  159  pwd
+  160  rm test_file.txt
+  161  cd ..
+  162  pwd
+  163  ls
+  164  touch test_directory/test_file.txt
+  165  ls test_directory
+  166  mkdir test_directory/test_directory2
+  167  open test_directory/test_file
+  168  open test_directory/test_file.txt
+  169  nano test_directory/test_file.txt
+  170  rm test_directory
+  171  rm -r test_directory
+  172  ls
+  173  pwd
+  174  ls
+  175  cd Documents
+  176  pwd
+  177  ls
+  178  rm applepie
+  179  rm -r applepie
+  180  ls
+  181  cd Python_12Projects
+  182  ls
+  183  cd 1PythonProject
+  184  ls
+  185  python3 madlibs.py
+  186  cd
+  187  pwd
+  188  ls
+  189  mkdir testing
+  190  ls
+  191  mkir testing/testInside
+  192  mkdir testing/testInside
+  193  ls
+  194  ls testing
+  195  rm -r testing
+  196  pwd
+  197  ls
+  198  pwd
+  199  ls
+  200  cd Documents
+  201  pwd
+  202  ls
+  203  cd Python_12Projects
+  204  ls
+  205  open 1PythonProject
+  206  Python3 1PythonProject/madlibs.py
+  207  ls
+  208  cd python
+  209  cd 1PythonProject
+  210  ls
+  211  Python3 madlibs.py
+  212  Python3 madlibs.py
+  213  pwd
+  214  pwd
+  215  cd ..
+  216  pwd
+  217  Open Python_12
+  218  cd ..
+  219  open Python_12Projects
+  220  pwd
+  221  ls
+  222  cd Python_12Projects
+  223  cd ..
+  224  mkdir Python_12Projects/2PythonProject
+  225  pwd
+  226  ls Python_12Projects/
+  227  cd Python_12Projects/2PythonProject
+  228  pwd
+  229  ls
+  230  ls
+  231  python2 guessingGame.py
+  232  10
+  233  ls
+  234  python3 guessingGame.py
+  235  clear
+  236  ls
+  237  caffeinate
+  238  pwd
+  239  python3 guessingGame.py
+  240  Emacs
+  241  telnet towel.blinkenlights.nl
+  242   towel.blinkenlights.nl
+  243  Say monkey is dumb
+  244  python
+  245   /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53682 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  246   cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53695 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  247  3 cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53709 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  248  guess cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53716 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  249   cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53727 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  250  2
+  251  1
+  252  2
+  253   cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53740 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  254   cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53881 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  255   cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 53902 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  256   /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 51885 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  257  c
+  258   cd /Users/josephhawkins/Documents/Python_12Projects/2PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 51893 -- /Users/josephhawkins/Documents/Python_12Projects/2PythonProject/guessingGame.py 
+  259   /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 52294 -- /Users/josephhawkins/Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py 
+  260  p
+  261   cd /Users/josephhawkins/Documents/Python_12Projects/3PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 52401 -- /Users/josephhawkins/Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py 
+  262   cd /Users/josephhawkins/Documents/Python_12Projects/3PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 52486 -- /Users/josephhawkins/Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py 
+  263   cd /Users/josephhawkins/Documents/Python_12Projects/3PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 52601 -- /Users/josephhawkins/Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py 
+  264   cd /Users/josephhawkins/Documents/Python_12Projects/3PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 52663 -- /Users/josephhawkins/Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py 
+  265   cd /Users/josephhawkins/Documents/Python_12Projects/3PythonProject ; /usr/bin/env /usr/local/bin/python3 /Users/josephhawkins/.vscode/extensions/ms-python.python-2022.6.3/pythonFiles/lib/python/debugpy/launcher 52727 -- /Users/josephhawkins/Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py 
+  266  pwd
+  267  sql
+  268  pwd
+  269  ls
+  270  python2 Documents/Python_12Projects/2PythonProject/guessingGame.py
+  271  python2 Documents/Python_12Projects/2PythonProject/guessingGame.py
+  272  python3 Documents/Python_12Projects/2PythonProject/guessingGame.py
+  273  clear
+  274  pwd
+  275  python3 Documents/Python_12Projects/3PythonProject
+  276  python3 Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py
+  277  p
+  278  python3 Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py
+  279  python3 Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py
+  280  python3 Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py
+  281  python3 Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py
+  282  python3 Documents/Python_12Projects/3PythonProject/rock_paper_scissors.py
+  283  pwd
+  284  mkdir Documents/Python_12Projects/3PythonProject
+  285  mkdir Documents/Python_12Projects/3PythonProject
+  286  mkdir Documents/Python_12Projects 3PythonProject
+  287  mkdir 3PythonProject  Documents/Python_12Projects
+  288  ls
+  289  pkm
+  290  pmk
+  291  pwd
+  292  rm 3PythonProject
+  293  rm r- 3PythonProject
+  294  rm -r 3PythonProject
+  295  ls
+  296  pwd
+  297  ls
+  298  mkdir Documents/Python_12Projects/4PythonProject
+  299  pwd
+  300  pwd
+  301  cd ~/development
+  302  cd ~/development\nunzip ~/Downloads/flutter_macos_3.0.1-stable.zip\n
+  303  pwd
+  304  ls
+  305  cd Documents
+  306  pwd
+  307  ls
+  308  unzipcd ..
+  309  cd ..
+  310  ls
+  311  ls Documents
+  312  unzip Documents/flutter_macos_3.0.1-stable.zip
+  313  flutter
+  314  git
+  315  ls
+  316  mkdir tools
+  317  pwd
+  318  ls
+  319  cd tools
+  320  pwd
+  321  git clone https://github.com/flutter/flutter.git
+  322  ls
+  323  cd flutter
+  324  ls
+  325  cd ..
+  326  cd ..
+  327  pwd
+  328  ls
+  329  touch .zshrc
+  330  pwdd
+  331  pwd
+  332  cd tools
+  333  ls
+  334  cd flutter
+  335  ls
+  336  cd bin
+  337  pwd
+  338  clear
+  339  flutter
+  340  flutter
+  341  flutter doctor
+  342  flutter doctor
+  343  caffinate
+  344  caffinate
+  345  caf
+  346  caffeinate
+  347  flutter
+  348  pwd
+  349  ls
+  350  cd Applications
+  351  PWD
+  352  ls
+  353  clear
+  354  flutter doctro
+  355  flutter doctor
+  356  pwd
+  357  pwd
+  358  flutter doctor
+  359  flutter doctor
+  360  flutter doctor
+  361  sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\n
+  362  71180
+  363  sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\n
+  364  clear
+  365  sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\n
+  366  flutter doctor
+  367  flutter
+  368  flutter doctor
+  369  sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\n
+  370  sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer\n
+  371  flutter doctor
+  372  sudo gem install cocoapods
+  373  flutter doctor
+  374  flutter doctor xcode
+  375  sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+  376  sudo xcodebuild -runFirstLaunch
+  377  flutter doctor
+  378     path/to/sdkmanager --install 
+  379  path/to/sdkmanager --install 
+  380  flutter doctor
+  381  flutter doctor
+  382  flutter doctor --android-licenses
+  383  flutter doctor
+  384  flutter doctor\n      --android-licenses
+  385  flutter doctor\n      --android-licenses\n
+  386  flutter doctor --android-licenses
+  387  flutter doctor
+  388  flutter confg
+  389  flutter config
+  390  flutter config --enable-macos-desktop
+  391   flutter config
+  392  ls
+  393  mkdir dev
+  394  ls
+  395  cd dev
+  396  flutter create hello_world
+  397  cd hello_world
+  398  flutter run
+  399  r
+  400  flutter run
+  401  c
+  402  q
+  403  flutter doctor
+  404  flutter config
+  405  flutter --[no-]enable-macos-desktop
+  406  flutter config --enable-<platform>-desktop
+  407  flutter create --platforms=windows,macos,linux .\n
+  408  pwd
+  409  cd ..
+  410  ls
+  411  pwd
+  412  cd .. 
+  413  ls
+  414  tools
+  415  ls tools
+  416  ls StudioProjects
+  417  cd StudioProjects
+  418  flutter create --platforms=windows,macos,linux .\n
+  419  flutter create --platforms=windows,macos,linux .\n
+  420  ls
+  421  cd hellow_world_2
+  422  flutter create --platforms=windows,macos,linux .\n
+  423  pwd
+  424  cd ..
+  425  cd ..
+  426  pwd
+  427  ls
+  428  toola
+  429  toola
+  430  open -a Simulator\n
+  431  pwd
+  432  r
+  433  pwd
+  434  R
+  435  r
+  436  R
+  437  pwd
+  438  ls
+  439  cd StudioProjects
+  440  ls
+  441  cd hellow_world_2
+  442  open -a Simulator\n
+  443  open -a Simulator\n
+  444  r
+  445  open -a Simulator\n
+  446  pwd
+  447  open -a Simulator\n
+  448  r
+  449  open -a Simulator\n
+  450  open -a Simulator\n
+  451  cd ..
+  452  pwd
+  453  ls
+  454  cd ..
+  455  ls
+  456  ls dev
+  457  open StudioProjects/hellow_world_2/
+  458  open StudioProjects/hellow_world_2/hellow_world_2.iml
+  459  flutter run
+  460  pw
+  461  pwd
+  462  cd
+  463  cd StudioProjects
+  464  ls
+  465  cd hellow_world_2
+  466  flutter run
+  467  flutter packages get
+  468  flutter packages get
+  469  pwd
+  470  ls
+  471  cd pubspec.yaml
+  472  flutter packages get
+  473  flutter packages get pubspec.yaml
+  474  flutter packages get
+  475  flutter run
+  476  pwd
+  477  cd StudioProjects
+  478  flutter create flutter_complete_guide
+  479  pwd
+  480  code .
+  481  code .
+  482  cd ..
+  483  pwd
+  484  ls
+  485  r
+  486  flutter run
+  487  clear
+  488  pwd
+  489  ls
+  490  pwd
+  491  ls
+  492  cd dev
+  493  cd l
+  494  cd l
+  495  cd hello_world/.cd
+  496  cd.
+  497  .cd
+  498  cd ..
+  499  ls
+  500  clear
+  501  cd ..
+  502  ls
+  503  cd josephhawkins
+  504  ls
+  505  ls
+  506  cd ls dev
+  507  ls dev
+  508  ls
+  509  ls
+  510  ls studioProjects
+  511  ls flutter_complete_guide
+  512  ls
+  513  ls StudioProjects
+  514  ls StudioProjects/flutter_login_demo
+  515  ls
+  516  ls dev
+  517  ls dev/hello_world
+  518  ls StudioProjects/
+  519  cd StudioProjects
+  520  pwd
+  521  clear
+  522  pwd
+  523  flutter create my_app
+  524  cd my_app
+  525  ls
+  526  clear
+  527  pwd
+  528  cd..
+  529  .. cd
+  530  ..cd
+  531  cd.
+  532  cd.
+  533  cd ..
+  534  flutter pub get
+  535  pwd
+  536  cd Documents
+  537  ls
+  538  cd CS46B
+  539  ls
+  540  cd Cs46B
+  541  cd CS46B HW
+  542  cd CS46B\ HW
+  543  jar tvf Homework1.jar
+  544  ls
+  545  jar tvf Homework1.jar
+  546  ls
+  547  jar tvf Homework1.jar
+  548  jar tvf Homework1.jar
+  549  jar
+  550  jar
+  551  jar tvf Homework1.jar
+  552  jar
+  553  jar tvf Homework1.jar
+  554  delete
+  555  java -version
+  556  pwd
+  557  pwed
+  558  pwd
+  559  cd
+  560  pwd
+  561  cd Documents/CS46B/CS46B\ HW
+  562  pwd
+  563  jar tvf Homework1.jar
+  564  pwd
+  565  cmd
+  566  lst
+  567  vim
+  568  ls
+  569  pwd
+  570  ls Applications
+  571  cd Documents/CS46B
+  572  ls
+  573  ls CS46B\ 
+  574  ls
+  575  ls lab2workspace
+  576  ls CS46B\ 
+  577  cd lab2workspace
+  578  ls
+  579  ls
+  580  pwd
+  581  pwd
+  582  ls
+  583  ls
+  584  cd src
+  585  ls
+  586  cd transport
+  587  ls
+  588  cd ..
+  589  cd ..
+  590  pwd
+  591  ls
+  592  cd bin
+  593  ls
+  594  cd transport
+  595  ls
+  596  cd ..
+  597  cd ..
+  598  pwd
+  599  cd src
+  600  cd transport
+  601  pwd
+  602  ls
+  603  cp -v /Users/josephhawkins/Documents/CS46B/lab2workspace/src/transport
+  604  cp -v /Users/josephhawkins/Documents/CS46B/lab2workspace/src/transport/MarsRover.java
+  605  cp -v /Users/josephhawkins/Desktop/DamagedRover\ \(1\).java 
+  606  pwd
+  607  cp -v /Users/josephhawkins/Desktop/DamagedRover.java 
+  608  ls
+  609  cp -v /Users/josephhawkins/Desktop/DamagedRover.java .
+  610  ls
+  611  cd ..
+  612  cd ..
+  613  pwd
+  614  ls
+  615  javac -d bin src/transport/*.java
+  616  javac -version
+  617  java -classpath /Users/josephhawkins/Documents/CS46B/lab2workspace/bin transport.MarsRover
+  618  java -version
+  619  javac -version
+  620  git --version
+  621  cd
+  622  pwd
+  623  cd eclipse-workspace
+  624  pwd
+  625  cd lab11
+  626  pwd
+  627  pwd
+  628  ld
+  629  ls
+  630  cd..
+  631  cd ..
+  632  cd ..
+  633  cd ..
+  634  pwd
+  635  git config --global user.email "hawkinsjoseph2003@gmail.com"
+  636  ls ~/.ssh
+  637  ls ~/.ssh
+  638  cd josephhawkins
+  639  ls ~/.ssh
+  640  git config --global user.name "Joseph Hawkins"
+  641  git config --global user.email "hawkinsjoseph2003@gmail.com"\n
+  642  ssh-keygen -t rsa -C "Joseph Hawkins <hawkinsjoseph2003@gmail.com>"
+  643  cat ~/.ssh/id_rsa.pub
+  644  cat ~/.ssh/id_rsa.pub
+  645  pwd
+  646  cd eclipse-workspace
+  647  cd lab11
+  648  pwd
+  649  ls
+  650  git init
+  651  git status
+  652  git add .gitignore src
+  653  git status
+  654  git commit -a -m "initial checkin"
+  655  git status
+  656  git status
+  657  git commit
+  658  git commit -a -m "initial checkin"
+  659  git commit -a -m "..."
+  660  git status
+  661  git commit -a -m "hi"
+  662  git commit
+  663  git commit -a -m "..."
+  664  git@github.com:githubusername/projectname.git
+  665  git remote add origin git@github.com:JosephSizz/lab11.git
+  666  git push -u origin main
+  667  git branch -M main
+  668  git remote add origin\ngit@github.com:JosephSizz/lab11.git
+  669  git push -u origin main
+  670  git remote add origin https://github.com/JosephSizz/lab11.git
+  671  git branch -M main\n
+  672  git push -u origin main
+  673  71180
+  674  git remote add origin https://github.com/JosephSizz/lab11.git
+  675  git remote add origin https://github.com/JosephSizz/lab11.git
+  676  git branch -M main
+  677  git push -u origin main
+  678  git pull
+  679  git commit -a -m “updated TreeNode class”
+  680  git pull
+  681  git commit -a -m “updated TreeNode class”
+  682  git clone
+  683  git clone https://github.com/oakani/lab13-traversals-fork.git
+  684  git clone https://github.com/oakani/lab13-traversals-fork.git
+  685  pwd
+  686  ls
+  687  cd Desktop
+  688  pwd
+  689  git clone https://github.com/oakani/lab13-traversals-fork.git
+  690  pwd
+  691  ls
+  692  ls
+  693  cd Desktop
+  694  ls
+  695  cd lab13-traversals-fork
+  696  git pole
+  697  git pull
+  698  git pull
+  699  git commit -a -m “updated traversal code”
+  700  git commit -a -m “updated”
+  701  git pull
+  702  git commit -a -m "balls"
+  703  git pull
+  704  git commit -a -m “updated traversal code”
+  705  git commit -a -m “updated traversal”
+  706  ls
+  707  cd Desktop
+  708  ls
+  709  cd lab13-traversals-fork
+  710  git pull
+  711  git commit -a -m “updated traversal code”
+  712  pwd
+  713  git pull
+  714  git add src
+  715  git commit -a -m “updated traversal code”
+  716  git commit -a -m "please work"
+  717  git push
+  718  git push
+  719  git push
+  720  git push
+  721  git push
+  722  git push
+  723  git push
+  724  git push
+  725  git push -u origin main
+  726  pwd
+  727  ls
+  728  cd Desktop
+  729  ls
+  730  cd lab13-traversals-fork
+  731  git commit
+  732  git commit -a -m "j"
+  733  git push
+  734  cd main
+  735  git commit -a -m "popop"
+  736  git push
+  737  git push
+  738  git push
+  739  git push
+  740  git pull
+  741  git pull
+  742  git add src
+  743  git commit -a -m "updated"
+  744  git push
+  745  git pull
+  746  git push
+  747  git push
+  748  git pull
+  749  cd Desktop/lab13-traversals-fork
+  750  ls
+  751  git pull
+  752  git pull
+  753  git add src
+  754  git commit -a -m "updated"
+  755  git push
+  756  vi cat.txt
+  757  ssh josephf23@ 172.20.25.9
+  758  passwd
+  759  ssh josephf@172.20.25.9
+  760  ssh josephf23@ 172.20.25.9
+  761  ssh sjsustudent8@ 172.20.25.9
+  762  wget www.github.com 
+  763  wget www.github.com
+  764  ssh josephf23@ 172.20.25.9
+  765  pwd
+  766  ls
+  767  cd do
+  768  cd Documents
+  769  pwd
+  770  ls
+  771  mkdir cs131myproject
+  772  pwd
+  773  cd cs131myproject
+  774  git init
+  775  pwd
+  776  ls
+  777  ls
+  778  touch newfile.txt
+  779  ls
+  780  git status
+  781  git add newfile.txt
+  782  git status
+  783  git commit -m "This is my first commit, including a file"
+  784  git checkout -b <new practice branch>
+  785  git branch
+  786  git checkout -b <my practice branch>
+  787  git checkout -b <my branch name>
+  788  git git branch <new-branch>
+  789  git checkout -b my-practice-branch
+  790  git branch 
+  791  git checkout master
+  792  git branch
+  793  git remote add origin https://github.com/JosephSizz/cs131.git
+  794  git branch -M main
+  795  git push -u origin main
+  796  git push origin newbranch1
+  797  git push origin my-new-branch
+  798  git status
+  799  git push origin my-practice-branch
+  800  git push origin my-practice-branch
+  801  git push origin my-practice-branch
+  802  git branch
+  803  git branch git my-practice-branch
+  804  git branch
+  805  git push origin my-practice-branch
+  806  git push git@github.com:git/git.git my-practice-branch
+  807  git branch git my-practice-branch
+  808   git push origin my-practice-branch
+  809  git push origin my-practice-branch
+  810  git pull origin master
+  811  git pull
+  812  git log
+  813  pwd
+  814  mkdir Worksheet1
+  815  git add
+  816  git add Worksheet1
+  817  git status
+  818  git commmit -m "added directory\n\nk\ngit commit -m "This is my first commit\!"\n\nq\ngit commit -m "This is my first commit\!"\n\n\nq
+  819  git commit -m "This is my second commit\n
+  820  git status
+  821  git add Worksheet1
+  822  git commit -m "this is my second commit"
+  823  git add .
+  824  git commit -m "Add Worksheet1 directory for worksheet1"
+  825  git push origin main
+  826  pwd
+  827  ls
+  828  git add .
+  829  git status
+  830  git add Worksheet1
+  831  git add
+  832  ssh josephf23@172.20.25.9
+  833  pwd
+  834  ls
+  835  cd ..
+  836  pwd
+  837  cd cs131myproject
+  838  git status
+  839  git add Worksheet1
+  840  git status
+  841  git commit Worksheet1
+  842  pwd
+  843  pwd
+  844  pwd
+  845  ls
+  846  cd Worksheet1
+  847  touch a.txt
+  848  pwd
+  849  ls
+  850  cd ..
+  851  ls
+  852  git add Worksheet1
+  853  git commit
+  854  man
+  855  ls
+  856  man
+  857  man t
+  858  man
+  859  pwd
+  860  man
+  861  2
+  862  man
+  863  ls
+  864  man
+  865  man
+  866  ping
+  867  man
+  868  man ls
+  869  pwd
+  870  !
+  871  pwd
+  872  ls
+  873  commit Worksheet1 - "this is a 3rd attempt"
+  874  cd
+  875  ls
+  876  cd Documents/cs131myproject
+  877  pwd
+  878  ls
+  879  vi newfile.txt
+  880  cat a.txt
+  881  cat newfile.txt
+  882  cat newfile.txt
+  883  git push origin 
+  884   git push origin my-new-branch
   885  ls -latr
   886  ls
   887  ls - lat
@@ -14,3 +898,30 @@
   898  git status
   899  git commit -m "this is first commit"
   900  git push 
+  901  history > cmds.log
+  902  ls
+  903  git add cmds.log
+  904  git commit
+  905  git commit -m"this is history"
+  906  git push
+  907  history -r
+  908  history > commands.log
+  909  ls
+  910  vim commands.log
+  911  history > cmds.log
+  912  ls
+  913  vim cmds.log
+  914  history -w history.log
+  915  history -w history.log
+  916  history -w history.log
+  917  history -w  history.log
+  918  history
+  919  man history
+  920  history 100 > cmds.log
+  921  cat cmds.log
+  922  pwd
+  923  history 900 > cmds.log
+  924  cat cmds.log
+  925  cat cmds.log
+  926  history 100 > cmds.log
+  927  cat cmds.log

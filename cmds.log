@@ -1,0 +1,16 @@
+  885  ls -latr
+  886  ls
+  887  ls - lat
+  888  ls -r
+  889  ls -a
+  890  ls -t
+  891  ls *.txt
+  892  ls ?.txt
+  893  git clone git@github.com:JosephSizz/cs131.git
+  894  git commit
+  895  git status
+  896  pwd
+  897  ls
+  898  git status
+  899  git commit -m "this is first commit"
+  900  git push 

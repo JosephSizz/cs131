@@ -1,0 +1,518 @@
+United States,6900000
+India,6800000
+United States,5900000
+India,5500000
+India,5100000
+India,5000000
+India,5000000
+United States,4100000
+United States,4000000
+India,3600000
+United States,3600000
+United States,3500000
+United States,3100000
+India,2900000
+India,2700000
+United States,2700000
+United States,2600000
+India,2400000
+India,2400000
+India,2400000
+United States,2400000
+United States,2300000
+India,2200000
+United States,2100000
+United States,2100000
+United States,2000000
+India,1700000
+United States,1700000
+India,1600000
+United States,1600000
+India,1500000
+United Kingdom,1500000
+United States,1500000
+United States,1500000
+India,1400000
+India,1400000
+United States,1400000
+United States,1400000
+India,1300000
+India,1300000
+India,1300000
+India,1300000
+India,1300000
+United States,1300000
+United States,1300000
+India,1200000
+India,1200000
+India,1200000
+United States,1200000
+United States,1200000
+United States,1200000
+India,1100000
+India,1100000
+India,1100000
+India,1100000
+India,1000000
+India,1000000
+India,1000000
+United States,1000000
+United States,1000000
+India,995800
+United Kingdom,995700
+India,994400
+United States,989600
+United States,985500
+United States,963100
+United States,958900
+United States,955800
+United States,943500
+United States,938600
+United States,936300
+India,912100
+India,872500
+India,864300
+United States,830300
+United States,828600
+United States,825800
+United States,822600
+India,821800
+India,821000
+India,818800
+India,816800
+United States,801400
+United States,801400
+India,801200
+United States,800200
+United States,780600
+India,777900
+United States,772800
+India,764900
+United Kingdom,753000
+United Kingdom,734800
+India,726600
+United States,715800
+India,708900
+India,707100
+United States,702700
+India,702000
+India,698200
+India,696100
+United States,686900
+India,682100
+United States,665100
+India,651300
+India,641200
+India,637900
+United States,632900
+India,632700
+United States,616800
+United Kingdom,608200
+United States,597100
+United Kingdom,596600
+United States,593900
+United States,586500
+United States,585600
+India,583800
+United States,566800
+United States,566500
+United States,561000
+India,557900
+United States,557100
+India,554900
+United States,554800
+United States,551600
+India,542800
+United States,541200
+India,540100
+India,539700
+India,537700
+United States,533300
+United States,532800
+United States,525700
+United States,525300
+United States,509900
+United States,509600
+India,503700
+United Kingdom,503100
+United States,494700
+United States,492600
+United States,485700
+India,482100
+United States,480700
+United States,480600
+India,479300
+United States,475800
+United States,465600
+India,462100
+United States,459800
+United States,458500
+United States,455100
+United States,455100
+India,454400
+United Arab Emirates,453600
+India,449400
+United States,447700
+United States,440600
+United States,433400
+United States,429500
+India,425500
+India,425100
+United States,423600
+United States,421000
+United States,420800
+United States,418300
+United States,418000
+India,417400
+India,417300
+United Kingdom,411300
+India,408300
+United States,406700
+United States,403200
+United States,402700
+India,400800
+United States,400100
+United States,399600
+United States,396300
+India,393600
+India,392200
+United States,385300
+United Kingdom,384100
+United States,383900
+United States,382500
+United States,382000
+United States,372600
+United States,368700
+United States,359400
+United States,354700
+United States,347400
+United States,344000
+India,340700
+United States,340600
+India,340300
+United States,339000
+India,337900
+United States,336300
+United States,334500
+United States,333800
+United States,332300
+India,329500
+India,329500
+India,329400
+India,327400
+India,327100
+United States,322600
+India,317900
+United States,317400
+India,317100
+United States,315400
+United States,315300
+United States,310900
+United States,309500
+United States,309000
+United States,307900
+India,307300
+United Kingdom,307200
+India,307100
+India,306700
+India,304100
+India,299000
+United States,299000
+United States,296500
+United States,296300
+India,295000
+United States,295000
+United States,294600
+United States,294200
+United States,293300
+United States,292300
+United States,291900
+United States,285800
+India,285500
+India,284600
+United States,282700
+United Kingdom,281300
+India,279500
+United States,277800
+United States,276700
+United States,273700
+United States,271300
+India,269300
+United States,268700
+United States,267300
+India,267000
+United States,266800
+United States,266000
+United States,265900
+United States,264000
+United Kingdom,259400
+India,259300
+United Kingdom,257300
+United Kingdom,254300
+United States,245700
+United States,245000
+United States,240200
+United States,238200
+India,236100
+India,236000
+United Kingdom,236000
+United Kingdom,234500
+United States,231200
+United States,227300
+India,223400
+United States,219100
+India,218700
+India,211200
+United States,205100
+United States,204500
+United States,200700
+United Kingdom,198800
+nan,197800
+India,196100
+United States,195200
+India,194200
+United States,191800
+United States,190300
+United States,189900
+United States,183600
+India,179800
+United Kingdom,178900
+India,177600
+United Kingdom,176500
+India,175600
+United States,175100
+United States,174400
+India,173400
+United States,170700
+United States,169900
+United Kingdom,169600
+United States,169100
+United Kingdom,167000
+United States,166100
+United Kingdom,162900
+United Kingdom,162600
+United Kingdom,160800
+United States,159600
+United States,159500
+India,158000
+United States,157000
+United States,155500
+United States,155100
+United States,154900
+India,153900
+India,153900
+United Kingdom,153400
+United States,152800
+United States,150600
+India,149600
+United States,149500
+India,149000
+United States,148200
+India,146200
+India,145300
+United States,144900
+United States,139800
+United States,139500
+United States,137500
+United States,137400
+United States,136900
+United States,135300
+United States,133600
+United Kingdom,133200
+United States,132400
+United States,131600
+India,131000
+United States,130200
+United States,130200
+India,129400
+United States,129400
+United States,128100
+United States,127600
+United States,125400
+United Kingdom,125000
+India,123900
+United States,123300
+United States,120300
+United Kingdom,117700
+United Kingdom,115800
+India,114500
+India,112900
+United States,112900
+India,111500
+United States,110400
+United Kingdom,110000
+United States,109100
+United States,109000
+United States,106600
+United Kingdom,105900
+United States,105100
+United Kingdom,104300
+India,103300
+India,100500
+United Kingdom,98400
+India,96300
+United States,96000
+India,95500
+United States,93000
+India,92900
+India,92200
+United States,92000
+United States,89800
+United States,89600
+United States,89200
+India,89100
+United States,88100
+United States,87500
+United States,86400
+India,86000
+India,85800
+India,83900
+United Kingdom,83900
+India,83600
+United Kingdom,83400
+United States,82100
+United States,82100
+United States,81100
+United States,80600
+United States,80000
+United States,79300
+India,78500
+United States,77700
+United States,77200
+India,76800
+India,76000
+United States,75800
+India,74200
+United States,74100
+United States,73100
+India,72200
+India,72000
+India,71700
+United States,69600
+India,69100
+United States,68900
+United States,66900
+India,66800
+India,66700
+United States,65400
+United States,63300
+India,63200
+India,60800
+India,60800
+United States,60000
+United States,56900
+India,55600
+United States,55600
+United States,54100
+United States,53800
+United States,52400
+India,51800
+nan,51800
+United States,51700
+United States,50400
+United States,48400
+United States,48000
+United States,47100
+United States,46000
+United States,45800
+United States,44600
+United States,43900
+United States,43500
+United States,43300
+India,42900
+India,41700
+United States,39700
+India,39400
+United States,38700
+United States,35900
+India,34500
+India,33200
+United States,33100
+United States,32700
+United States,32600
+United States,32400
+United States,32400
+India,32300
+United Kingdom,30700
+United States,29700
+United States,29700
+United States,27300
+United States,26000
+United States,25900
+United Kingdom,25400
+United States,25100
+India,22900
+United States,21500
+United States,18400
+United States,17900
+India,17800
+United Kingdom,16300
+United States,14300
+United States,13800
+United States,12700
+United States,11300
+United States,10700
+United Kingdom,9200
+United States,8200
+United States,7400
+United States,6000
+United States,5800
+United States,5300
+United States,4900
+United States,4700
+India,4200
+United States,4000
+United States,4000
+India,3100
+India,2500
+United States,1400
+United States,1300
+United States,1200
+United Kingdom,201
+United States,114
+United States,113
+United States,89
+United States,83
+United States,62
+United States,49
+United States,19
+United Kingdom,5
+India,3
+United Kingdom,1
+United States,0.74
+United States,0.3
+United States,0.19
+United States,0.07
+United States,0.05
+United States,0.04
+India,0.03
+India,0.02
+India,0.01
+United States,0.01
+United States,0.01
+Binary file Global YouTube Statistics.csv matches
+India,0
+India,0
+India,0
+India,0
+India,0
+nan,0
+nan,0
+United Kingdom,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0
+United States,0

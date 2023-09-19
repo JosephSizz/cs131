@@ -1,0 +1,6 @@
+Task 2: "#Subscribers" in order to find the highest subscribed channel from 3 different categories: Sports, Education, and Entertainment
+
+MrBeast
+Cocomelon
+WWE
+

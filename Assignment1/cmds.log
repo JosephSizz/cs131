@@ -1,0 +1,799 @@
+Script started on 2023-09-20 22:17:26-04:00
+bash: hello: command not found
+bash-4.4$ 
+bash-4.4$ ls
+cmds.log     index.html.1	      sampleProject	typescript
+cs131	     myproject		      sort.txt		worksheet2
+history.txt  results_eminen.txt       spotify-2023.csv
+index.html   resultwithoutEminem.txt  strace
+bash-4.4$ 
+bash-4.4$ ls
+cmds.log     index.html.1	      sampleProject	typescript
+cs131	     myproject		      sort.txt		worksheet2
+history.txt  results_eminen.txt       spotify-2023.csv
+index.html   resultwithoutEminem.txt  strace
+bash-4.4$ mv cmds.log cs131/
+bash-4.4$ 
+bash-4.4$ ls
+cs131	      myproject		       sort.txt		 worksheet2
+history.txt   results_eminen.txt       spotify-2023.csv
+index.html    resultwithoutEminem.txt  strace
+index.html.1  sampleProject	       typescript
+bash-4.4$ cd cs131/
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ mkdir Assignment1 -----------> Task #1
+bash-4.4$ 
+bash-4.4$ l[Kcd Assignment1/
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h[?25ls[?25h[?25l[1;1H[K[1;1H[?25h[?25li[?25h[?25l[1;1H[K[1;1H[?25h[?25lA[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lg[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25lAssignment1.txt[?25h[?25l[1;15H[K[1;15H[?25h[?25l[1;14H[K[1;14H[?25h[?25l[1;13H[K[1;13H[?25h[?25l[1;12H[K[1;12H[?25h[?25l[1;11H[K[1;11H[?25h[?25l [?25h[?25l1[?25h[?25l[2;1H[K[2;1H[?25h[24;1H[K[2;1H[?25l[?25h[?25l[24;1H:[?2004h[?25hqw[?25l[97m[41mE492: Not an editor command: qw[2;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" [New] 2L, 14C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt[C[C[C[C[C[C[C[C[C[C[3Pcd Assignment1/[C[C[C[C[C[C[C[C[C[Cmkdir Assignment1[C[C[C[C[C[C[C[C[C[C[8Pcd cs131/mkdir Assignment1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd cs131/ls[Kmv cmds.log cs131/[C[C[C[C[C[C[C[C[C[Cls[Kcd cs131/[Kcd Assignment1/[C[C[C[C[C[C[C[C[C[Cvi Assignment1.txt[C[C[C[C[C[C[C[C[C[C[Kvi Assignment1.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 2L, 14C[1;1HAssignment 1
+
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[2;1H[?25h[?25l[3;1H[K[3;1H[?25h[?25l1[?25h[?25l)[?25h[?25l [?25h[?25lmkdir Assignment1[?25h[?25l[4;1H[K[4;1H[?25h[?25l[5;1H[K[5;1H[?25h[?25l2[?25h[?25l)[?25h[?25l [?25h[24;1H[K[5;3H[?25l[?25h[?25l[24;1H:[?2004h[?25hqw[?25l[97m[41mE492: Not an editor command: qw[5;3H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 5L, 40C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ vi [K[K[Kecho %[K[12@(reverse-i-search)`':[C[C[C[C[C[C[C[7@failed [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Pbash-4.4$[C[C[C[C[C[C[K[K[K[K[Kshell[12@(reverse-i-search)`':[C[C[C[C[C[C[12Pbash-4.4$[C[C[C[C[C[Cvi Assignment1.txt[C[C[C[C[C[C[C[C[C[Cshell[Kvi Assignment1.txt[C[C[C[C[C[C[C[C[C[C[3Pcd Assignment1/[C[C[C[C[C[C[C[C[C[C[Kcd cs131/[Kcd Assignment1/[C[C[C[C[C[C[C[C[C[Cvi Assignment1.txt[C[C[C[C[C[C[C[C[C[Cshell[K[K[K[K[K[Kecho $SHELL
+/bin/bash
+bash-4.4$ echo $SHELLvi Assignment1.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 5L, 40C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2)
+[94m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[3;1H[?25h
+
+2)[?25l [?25h[?25lO[?25h[?25lu[?25h[?25lt[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25l:[?25h[?25l [?25h[?25l/bin/bash[?25h[?25l
+ [6;2H[K[6;1H[?25h[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25lC[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25l:[?25h[?25l [?25h[?25lecho $SHELL[?25h[?25l
+ [7;2H[K[7;1H[?25h[?25l
+ [8;2H[K[8;1H[?25h[?25l[94m~                                                                               [7;1H[?25h[?25l~                                                                               [6;21H[?25h[?25l[m [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l[?25h[?25l [?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25lecho $SHELL[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l$SHELL[?25h[?25l
+ [7;2H[K[7;1H[?25h[?25l
+ [8;2H[K[8;1H[?25h[?25l3[?25h[?25l)[?25h[24;1H[K[8;2H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 8L, 83C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ echo vi Assignment1.txt[C[C[C[C[C[C[C[C[C[C[7Pecho $SHELL[K[K[K[K[KHOME
+/mnt/scratch/FA23_CS131_Ashish/josephf23
+bash-4.4$ echo $HOMEvi Assignment1.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 8L, 83C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+3)
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h
+
+
+
+
+
+
+3)[?25l [?25h[?25lO[?25h[?25lu[?25h[?25lt[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25l:[?25h[?25l
+ [9;2H[K[9;1H[?25h[?25l[94m~                                                                               [8;11H[?25h[?25l[mecho $HOME
+/mnt/scratch/FA23_CS131_Ashish/josephf23 [9;42H[K[9;41H[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l[94m~                                                                               [8;21H[?25h[?25l[m [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l
+ [9;2H[K[9;1H[?25h[?25l
+ [10;2H[K[10;1H[?25h[?25lecho $HOME
+/mnt/scratch/FA23_CS131_Ashish/josephf23 [11;42H[K[11;41H[?25h[10;11H[?25l[10;10H[K[10;10H[?25h[?25l[10;9H[K[10;9H[?25h[?25l[10;8H[K[10;8H[?25h[?25l[10;7H[K[10;7H[?25h[?25l[10;6H[K[10;6H[?25h[?25l[?25h[?25l[10;4H[K[10;4H[?25h[?25l[10;3H[K[10;3H[?25h[?25l[10;2H[K[10;2H[?25h[?25l[10;1H[K[10;1H[?25h
+[?25l[10;1H/mnt/scratch/FA23_CS131_Ashish/josephf23
+[94m~                                                                               [10;1H[?25h[?25l[m[9;1H/mnt/scratch/FA23_CS131_Ashish/josephf23
+[94m~                                                                               [9;1H[?25h[?25l[m[8;11H/mnt/scratch/FA23_CS131_Ashish/josephf23
+[94m~                                                                               [8;11H[?25h[7;1H[8;11H[m/mnt/scratch/FA23_CS131_Ashish/josephf23[?25l
+ [9;2H[K[9;1H[?25h[?25lc[?25h[?25l [?25h[?25lC[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25la[?25h[?25ld[?25h[?25l [?25h[?25ln[?25h[?25ld[?25h[?25l:[?25h[?25l [?25h[?25l
+ [10;2H[K[10;1H[?25h[?25l
+ [11;2H[K[11;1H[?25h[?25lecho $HOME
+/mnt/scratch/FA23_CS131_Ashish/josephf23 [12;42H[K[12;41H[?25h[?25lA[?25h[?25l [?25h[?25l [12;39H[K[12;38H[?25h[?25l [12;36H[K[12;35H[?25h[?25l [12;33H[K[12;32H[?25h[?25l [12;30H[K[12;29H[?25h[?25l[12;22H[K[13;1HCommand: [13;10H[K[14;1H[K[15;1Hecho $HOME[15;11H[K[16;1H/mnt/scratch/FA23_CS131_Ashi31_Ashi [16;37H[K[16;29H[?25hhi31_Ashi [?25l[?25h[?25l[16;35H[K[16;35H[?25h[?25l[16;34H[K[16;34H[?25h[?25l[16;33H[K[16;33H[?25h[?25l[16;32H[K[16;32H[?25h[?25l[16;31H[K[16;31H[?25h[?25l[16;30H[K[16;30H[?25h[?25l[16;29H[K[16;29H[?25h[?25l[16;28H[K[16;28H[?25h[?25l[16;27H[K[16;27H[?25h[?25l[16;26H[K[16;26H[?25h[?25l[16;25H[K[16;25H[?25h[?25l[16;24H[K[16;24H[?25h[?25l[16;23H[K[16;23H[?25h[?25l[16;22H[K[16;22H[?25h[?25l[16;21H[K[16;21H[?25h[?25l[16;20H[K[16;20H[?25h[?25l[16;19H[K[16;19H[?25h[?25l[16;18H[K[16;18H[?25h[?25l[16;17H[K[16;17H[?25h[?25l[16;16H[K[16;16H[?25h[?25l[16;15H[K[16;15H[?25h[?25l[16;14H[K[16;14H[?25h[?25l[16;13H[K[16;13H[?25h[?25l[16;12H[K[16;12H[?25h[?25l[16;11H[K[16;11H[?25h[?25l[16;10H[K[16;10H[?25h[?25l[16;9H[K[16;9H[?25h[?25l[16;8H[K[16;8H[?25h[?25l[16;7H[K[16;7H[?25h[?25l[16;6H[K[16;6H[?25h[?25l[16;5H[K[16;5H[?25h[?25l[16;4H[K[16;4H[?25h[?25l[16;3H[K[16;3H[?25h[?25l[16;2H[K[16;2H[?25h[?25l[16;1H[K[16;1H[?25h[?25l[94m~                                                                               [15;11H[?25h[?25l[m[15;10H[K[15;10H[?25h[?25l[15;9H[K[15;9H[?25h[?25l[15;8H[K[15;8H[?25h[?25l[15;7H[K[15;7H[?25h[?25l[15;6H[K[15;6H[?25h[?25l[?25h[?25l[15;4H[K[15;4H[?25h[?25l[15;3H[K[15;3H[?25h[?25l[15;2H[K[15;2H[?25h[?25l[15;1H[K[15;1H[?25h[?25l[94m~                                                                               [14;1H[?25h[?25l~                                                                               [13;10H[?25h[?25l[?25h[?25l[m[13;8H[K[13;8H[?25h[?25l[13;7H[K[13;7H[?25h[?25l[13;6H[K[13;6H[?25h[?25l[13;5H[K[13;5H[?25h[?25l[13;4H[K[13;4H[?25h[?25l[13;3H[K[13;3H[?25h[?25l[13;2H[K[13;2H[?25h[?25l[13;1H[K[13;1H[?25h[?25l[94m~                                                                               [12;22H[?25h[?25l[m[12;21H[K[12;21H[?25h[?25l[12;20H[K[12;20H[?25h[?25l[12;19H[K[12;19H[?25h[?25l[12;18H[K[12;18H[?25h[?25l[12;17H[K[12;17H[?25h[?25l[12;16H[K[12;16H[?25h[?25l[12;15H[K[12;15H[?25h[?25l[12;14H[K[12;14H[?25h[?25l[12;13H[K[12;13H[?25h[?25l[12;12H[K[12;12H[?25h[?25l[12;11H[K[12;11H[?25h[?25l[12;10H[K[12;10H[?25h[?25l[12;9H[K[12;9H[?25h[?25l[12;8H[K[12;8H[?25h[?25l[12;7H[K[12;7H[?25h[?25l[12;6H[K[12;6H[?25h[?25l[12;5H[K[12;5H[?25h[?25l[12;4H[K[12;4H[?25h[?25l[12;3H[K[12;3H[?25h[?25l[12;2H[K[12;2H[?25h[?25l[12;1H[K[12;1H[?25h[11;1H[?25l[10;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [10;1H[?25h[?25l[9;23r[m[23;1H
+[1;24r[9;1HCommand: echo $HOME[23;1H[94m~                                                                               [9;10H[?25h
+[?25l[m[11;1H[K[11;1H[?25h[?25l4[?25h[?25l)[?25h[10;1H[9;3H[8;3H[?25l) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23[8;50H[K[8;1H[?25h[?25l2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf232[?25h
+C
+
+4)[24;1H[K[11;2H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 11L, 154C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ id
+uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 11L, 154C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4)
+[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h
+
+
+
+
+
+
+
+
+
+4)[?25l [?25h[?25lI[?25h[?25lD[?25h[?25l:[?25h[?25l [?25h[?25luid=1140(josephf23) gid=1140(josephf23) groups=11[?25h[?25l40(josephf23),77(S77)[?25h[?25l: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)[11;77H[K[11;5H[?25h[?25ld: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)4) Id[?25h[?25l: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)[11;77H[K[11;5H[?25h[?25lD: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)4) ID[?25h: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)[?25l[12;1H[K[12;1H[?25h[?25lC[?25h[?25lo[?25h[?25lm[?25h[?25lm[?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25ls[?25h[?25l:[?25h[?25l [?25h[?25lI[?25h[?25l[12;11H[K[12;11H[?25h[?25li[?25h[?25ld[?25h[?25l[13;1H[K[13;1H[?25h[24;1H[K[13;1H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 13L, 243C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ cmod[K[K[K[Kmkdir myD[K[K[KmyDir
+bash-4.4$ 
+bash-4.4$ pwd[K[K[Kls
+Assignment1.txt  myDir
+bash-4.4$ 
+bash-4.4$ cmod u-[K[Ko-w myDir/
+bash: cmod: command not found
+bash-4.4$ ch[K[K
+bash-4.4$ 
+bash-4.4$ chmod o-w myDir/
+bash-4.4$ 
+bash-4.4$ cd myDir/
+bash-4.4$ l[Kpwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir
+bash-4.4$ ls
+bash-4.4$ ls -l
+total 0
+bash-4.4$ tough [K[K[K[Kuch coolfile.txt
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir
+bash-4.4$ ls
+coolfile.txt
+bash-4.4$ rm coolfile.txt 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ c[Kcd .
+bash-4.4$ cd ,,[K[K..
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ chmod u-w myDir
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ cd myDir/
+bash-4.4$ 
+bash-4.4$ ls
+bash-4.4$ ls [K[K[Kls -l"[K
+total 0
+bash-4.4$ ouch [K[K[K[K[Ktouch new [KFile.txt
+touch: cannot touch 'newFile.txt': Permission denied
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 13L, 243C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+[94m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+[?25l[14;1H[K[14;1H[?25h[?25l4[?25h[?25l[14;1H[K[14;1H[?25h[?25l5[?25h[?25l)[?25h[?25l [?25h[?25lyou allowed to cd in that directory[?25h[?25l.[?25h[?25l [?25h[?25ly[?25h[?25lo[?25h[?25lu[?25h[?25l [?25h[?25lc[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25ll[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25l [?25h[?25ll[?25h[?25ls[?25h[?25l [?25h[?25l-[?25h[?25ll[?25h[?25l [?25h[?25li[?25h[?25lt[?25h[?25l.[?25h[?25l [?25h[?25lY[?25h[?25lo[?25h[?25lu[?25h[?25l[14;68H[K[14;68H[?25h[?25l[14;67H[K[14;67H[?25h[?25l[14;66H[K[14;66H[?25h[?25ly[?25h[?25lo[?25h[?25l[14;67H[K[14;67H[?25h[?25l[14;66H[K[14;66H[?25h[?25ly[?25h[?25lo[?25h[?25lu[?25h[?25l [?25h[?25lc[?25h[?25la[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25lreate  [15;1Hfiles under it[15;15H[K[15;15H[?25h[?25l.[?25h[24;1H[K[15;15H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 14L, 339C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ mkdir myd[K[K[KmyDir2
+bash-4.4$ mkdir myDir3
+bash-4.4$ cd mk[K[Kmyd[KDirw[K2
+bash-4.4$ ls
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2
+bash-4.4$ o[Ktoufh [K[K[K[K[K[Kvi myFile.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"myFile.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"myFile.txt" [New] 0L, 0C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ mv ~/Assignment1/myDir3/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KmyFile.txt ~/Assignment1/myDir3/
+mv: cannot move 'myFile.txt' to '/mnt/scratch/FA23_CS131_Ashish/josephf23/Assignment1/myDir3/': No such file or directory
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ ~/Assignment1/myDir3/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmv myFile.txt Assigm[K[K[K[K[K[K~/
+bash-4.4$ 
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd myDir2
+bash-4.4$ ls
+bash-4.4$ ls
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ l[Kcd ..
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  newfile.txt     Worksheet1  Worksheet3
+cmds.log     sampleFile.txt  Worksheet2
+bash-4.4$ cd Assignment1/
+bash-4.4$ 
+bash-4.4$ touch myFile.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ cd myDir2
+bash-4.4$ 
+bash-4.4$ myFile.txt
+bash: myFile.txt: command not found
+bash-4.4$ 
+bash-4.4$ touch myFile.txt
+bash-4.4$ 
+bash-4.4$ mv ~/Assignment1/myDir/myFile.txt ~/Assignment1/
+mv: cannot stat '/mnt/scratch/FA23_CS131_Ashish/josephf23/Assignment1/myDir/myFile.txt': No such file or directory
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myyFile.txt /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+bash-4.4$ 
+bash-4.4$ ls
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3	myFile.txt
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ m[Kcd myd[K
+myDir/      myDir2/     myDir3/     myFile.txt  
+bash-4.4$ cd myDir2
+bash-4.4$ 
+bash-4.4$ ls
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ touch myFile.txt
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ 
+bash-4.4$ mv /m
+media/ mnt/   
+bash-4.4$ mv /mnt/scratch/FA23_CS131_Ashish/jo[K[KJ[Kjosephf23/cs131/Assignment1/myDir2/t [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm yFile.txt /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3	myFile.txt
+bash-4.4$ mv ,v[K[KmyFile.txt myDir2[K3
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd myDir3
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ cd ..
+bash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 14L, 339C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate  [15;1Hfiles under it.
+[94m~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[1m-- INSERT --[m[24;13H[K[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate
+files under it.[?25l[16;1H[K[16;1H[?25h[?25l[17;1H[K[17;1H[?25h[?25l6[?25h[?25l)[?25h[?25lmv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment[?25h[?25l1/myDir2/myFile.txx[18;1Ht /mnt/scratch/FA23_CS131_Ashish/josephf23/cs13[18;48H[K[18;48H[?25h[?25l1/Assignment1/[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[K[23;1H[94m~                                                                               [18;1H[?25h[?25l[m[19;1H[K[19;1H[?25h[?25lm[?25h[?25lo[?25h[?25lv[?25h[?25le[?25h[?25ld[?25h[?25l [?25h[?25li[?25h[?25lt[?25h[?25l [?25h[?25lu[?25h[?25lo[?25h[?25l[19;11H[K[19;11H[?25h[?25lp[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lf[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25la[?25h[?25lb[?25h[?25lo[?25h[?25lv[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ln[?25h[?25l [?25h[?25lA[?25h[?25li[?25h[?25lg[?25h[?25lg[?25h[?25l[19;37H[K[19;37H[?25h[?25l[19;36H[K[19;36H[?25h[?25l[19;35H[K[19;35H[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lg[?25h[?25lm[?25h[?25l[19;39H[K[19;39H[?25h[?25ln[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l1[?25h[?25l[20;1H[K[20;1H[?25h[?25l[21;1H[K[21;1H[?25h[?25lm[?25h[?25lv[?25h[?25l [?25h[?25l:[?25h[?25l[21;4H[K[21;4H[?25h[24;1H[K[21;3H[?25l[?25h[?25l
+
+
+:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 20L, 533C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 20L, 533C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate  [15;1Hfiles under it.
+
+6)mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myFile.txx[18;1Ht /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+
+moved it up to the file above in Assignment1
+
+mv
+[94m~                                                                               [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[m
+
+[1m-- INSERT --[m[24;13H[K[22;1H[?25hmv [?25lmv myFile.txt myDir3[?25h[?25lmv myFile.txt myDir3[22;23H[K[22;3H[?25h[?25lmv myFile.txt myDir3[22;22H[K[22;2H[?25h[?25lv myFile.txt myDir3[22;21H[K[22;1H[?25hmv myFile.txt myDir3[?25l[23;1H[K[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l7[?25h[?25l)[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[?25l:[?25h[?25l[23;1H[K[23;1H[?25h[24;1H[K[23;1H[?25l[?25h[?25l
+:[?2004h[?25hwq\[?25l[24;4H[K[24;4H[?25h[?25l[?2004l"Assignment1.txt" 27L, 559C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ man free
+[?1049h[22;0;0t[?1h=FREE(1)                          User Commands                         FREE(1)[m
+[m
+[1mNAME[0m[m
+       free - Display amount of free and used memory in the system[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfree [22m[[4moptions[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mfree  [22mdisplays the total amount of free and used physical and swap mem‐[m
+       ory in the system, as well as the buffers and caches used by  the  ker‐[m
+       nel.  The  information  is  gathered by parsing /proc/meminfo. The dis‐[m
+       played columns are:[m
+[m
+       [1mtotal  [22mTotal installed memory (MemTotal and SwapTotal in /proc/meminfo)[m
+[m
+       [1mused   [22mUsed memory (calculated as [1mtotal [22m- [1mfree [22m- [1mbuffers [22m- [1mcache[22m)[m
+[m
+       [1mfree   [22mUnused memory (MemFree and SwapFree in /proc/meminfo)[m
+[m
+       [1mshared [22mMemory used (mostly) by tmpfs (Shmem in /proc/meminfo)[m
+[m
+       [1mbuffers[0m[m
+[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Memory used by kernel buffers (Buffers in /proc/meminfo)[m
+[7m Manual page free(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mcache  [22mMemory used by the page cache and slabs (Cached and SReclaimable[m
+[7m Manual page free(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              in /proc/meminfo)[m
+[7m Manual page free(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mbuff/cache[0m[m
+[7m Manual page free(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Sum of [1mbuffers [22mand [1mcache[0m[m
+[7m Manual page free(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mavailable[0m[m
+[7m Manual page free(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Estimation  of  how  much  memory  is available for starting new[m
+[7m Manual page free(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              applications, without swapping. Unlike the data provided by  the[m
+[7m Manual page free(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mcache  [22mor  [1mfree [22mfields, this field takes into account page cache[m
+[7m Manual page free(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              and also that not all reclaimable memory slabs will be reclaimed[m
+[7m Manual page free(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              due to items being in use (MemAvailable in /proc/meminfo, avail‐[m
+[7m Manual page free(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              able on kernels 3.14, emulated on kernels 2.6.27+, otherwise the[m
+[7m Manual page free(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              same as [1mfree[22m)[m
+[7m Manual page free(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page free(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[22m, [1m--bytes[0m[m
+[7m Manual page free(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in bytes.[m
+[7m Manual page free(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[22m, [1m--kibi[0m[m
+[7m Manual page free(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in kibibytes.  This is the default.[m
+[7m Manual page free(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[22m, [1m--mebi[0m[m
+[7m Manual page free(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in mebibytes.[m
+[7m Manual page free(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gibi[0m[m
+[7m Manual page free(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the amount of memory in gibibytes.[m
+[7m Manual page free(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--tebi [22mDisplay the amount of memory in tebibytes.[m
+[7m Manual page free(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--pebi [22mDisplay the amount of memory in pebibytes.[m
+[7m Manual page free(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--kilo [22mDisplay the amount of memory in kilobytes. Implies --si.[m
+[7m Manual page free(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--mega [22mDisplay the amount of memory in megabytes. Implies --si.[m
+[7m Manual page free(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--giga [22mDisplay the amount of memory in gigabytes. Implies --si.[m
+[7m Manual page free(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--tera [22mDisplay the amount of memory in terabytes. Implies --si.[m
+[7m Manual page free(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--peta [22mDisplay the amount of memory in petabytes. Implies --si.[m
+[7m Manual page free(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[22m, [1m--human[0m[m
+[7m Manual page free(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Show  all  output  fields automatically scaled to shortest three[m
+[7m Manual page free(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              digit unit and display the units of print out.  Following  units[m
+[7m Manual page free(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              are used.[m
+[7m Manual page free(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                B = bytes[m
+[7m Manual page free(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                K = kibibyte[m
+[7m Manual page free(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                M = mebibyte[m
+[7m Manual page free(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                G = gibibyte[m
+[7m Manual page free(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                T = tebibyte[m
+[7m Manual page free(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                P = pebibyte[m
+[7m Manual page free(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              If  unit  is  missing, and you have exbibyte of RAM or swap, the[m
+[7m Manual page free(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number is in tebibytes and columns might  not  be  aligned  with[m
+[7m Manual page free(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              header.[m
+[7m Manual page free(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[22m, [1m--wide[0m[m
+[7m Manual page free(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Switch  to  the  wide  mode. The wide mode produces lines longer[m
+[7m Manual page free(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              than 80 characters. In this mode [1mbuffers [22mand [1mcache [22mare  reported[m
+[7m Manual page free(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              in two separate columns.[m
+[7m Manual page free(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[22m, [1m--count [4m[22mcount[0m[m
+[7m Manual page free(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display the result [4mcount[24m times.  Requires the [1m-s [22moption.[m
+[7m Manual page free(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[22m, [1m--lohi[0m[m
+[7m Manual page free(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Show detailed low and high memory statistics.[m
+[7m Manual page free(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[22m, [1m--seconds [4m[22mdelay[0m[m
+[7m Manual page free(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Continuously  display  the result [4mdelay[24m  seconds apart.  You may[m
+[7m Manual page free(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              actually specify any  floating  point  number  for  [4mdelay[24m  using[m
+[7m Manual page free(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              either  .  or  ,  for  decimal  point.   [1musleep[22m(3)  is  used for[m
+[7m Manual page free(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              microsecond resolution delay times.[m
+[7m Manual page free(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--si   [22mUse kilo, mega, giga etc (power of 1000) instead of kibi,  mebi,[m
+[7m Manual page free(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              gibi (power of 1024).[m
+[7m Manual page free(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[22m, [1m--total[0m[m
+[7m Manual page free(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display a line showing the column totals.[m
+[7m Manual page free(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help [22mPrint help.[m
+[7m Manual page free(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[22m, [1m--version[0m[m
+[7m Manual page free(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Display version information.[m
+[7m Manual page free(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mFILES[0m[m
+[7m Manual page free(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       /proc/meminfo[m
+[7m Manual page free(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              memory information[m
+[7m Manual page free(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mBUGS[0m[m
+[7m Manual page free(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  value  for  the [1mshared [22mcolumn is not available from kernels before[m
+[7m Manual page free(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       2.6.32 and is displayed as zero.[m
+[7m Manual page free(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Please send bug reports to[m
+[7m Manual page free(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ⟨procps@freelists.org⟩[m
+[7m Manual page free(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE ALSO[0m[m
+[7m Manual page free(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mps[22m(1), [1mslabtop[22m(1), [1mtop[22m(1), [1mvmstat[22m(8).[m
+[7m Manual page free(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page free(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[Kprocps-ng                         2016-06-03                           FREE(1)[m
+[7m Manual page free(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K [K::[Kww[K[7m Manual page free(1) line 104/126 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       11318       10828        1011       49220       56769
+Swap:          4119        1007        3112
+bash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ [Kbash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 27L, 559C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate files undd[15;1Her it.
+
+6)mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myFile.txt /mnt/scc[18;1Hratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+
+moved it up to the file above in Assignment1
+
+mv myFile.txt myDir3[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[24;1H[K[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H7)[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h
+
+
+
+
+[22;1H[21;1H[20;1H7[?25l[24;1H[1m-- INSERT --[20;1H[?25h[m7[?25l)[20;2H[K[20;1H[?25h[?25l6)[?25h)[?25l[1;23r[23;1H
+[1;24r[20;23r[20;1H[L[1;24r[20;1H[?25h[?25l[1;23r[23;1H
+[1;24r[20;23r[20;1H[L[1;24r[20;1H[?25h[?25l71367[?25h[?25l[20;5H[K[20;5H[?25h[?25l[20;4H[K[20;4H[?25h[?25l[20;3H[K[20;3H[?25h[?25l[20;2H[K[20;2H[?25h[?25l[20;1H[K[20;1H[?25h[?25l[19;23r[23;1H
+[1;24r[23;1H[94m~                                                                                        [19;1H[?25h[?25l[18;23r[m[23;1H
+[1;24r[18;1H6)[23;1H[94m~                                                                                        [18;3H[?25h[?25l[m [?25h[?25l71367[?25h[?25l [?25h[?25lMiB[?25h[?25l[1;23r[23;1H
+[1;24r[18;23r[18;1H[L[1;24r[18;1H[?25h[?25l[19;23r[19;1H[L[1;24r[19;1H[?25h[?25l[20;23r[20;1H[L[1;24r[20;1H[?25h[?25l9[?25h[?25l)[?25h[24;1H[K[20;2H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 30L, 574C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ 
+bash-4.4$ vi as[K[KAssignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 30L, 574C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate files undd[15;1Her it.
+
+6)mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myFile.txt /mnt/scc[18;1Hratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+
+moved it up to the file above in Assignment1
+
+mv myFile.txt myDir3[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[24;1H[K[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H6) 71367 MiB[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H9)[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h
+
+
+
+
+[?25l
+[1m-- INSERT --[23;1H[?25h[22;1H[21;1H[20;1H[m9)[?25lRed Hat Enterprise Linux[?25h[?25l[1;23r[23;1H
+[1;24r[20;23r[20;1H[L[1;24r[20;1H[?25h[?25l[19;23r[23;1H
+[1;24r[19;1H9)Red Hat Enterprise Linux[23;1H[94m~                                                                                        [19;27H[?25h[?25l[m,[?25h[?25l [?25h[?25l[?25h[?25l[19;27H[K[19;27H[?25h[?25l.[?25h[?25l [?25h[?25lV[?25h[?25le[?25h[?25lr[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l:[?25h[?25l [?25h[?25l8.6 (Ootpa).[?25h[?25l[20;23r[20;1H[L[1;24r[20;1H[?25h[?25l[1;23r[23;1H
+[1;24r[20;23r[20;1H[L[1;24r[20;1H[?25h[?25l1[?25h[?25l0[?25h[?25l)[?25h[24;1H[K[20;3H[?25l[?25h
+
+[?25l
+
+:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 32L, 626C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 32L, 626C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate files undd[15;1Her it.
+
+6)mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myFile.txt /mnt/scc[18;1Hratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+
+moved it up to the file above in Assignment1
+
+mv myFile.txt myDir3[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[24;1H[K[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H6) 71367 MiB[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H9)Red Hat Enterprise Linux. Version: 8.6 (Ootpa).[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H10)[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h
+
+
+
+
+[22;1H[21;1H[20;1H[19;1H[18;1H
+
+
+
+
+[?25l
+[1m-- INSERT --[23;1H[?25h[?25l[m[94m~                                                                                        [22;1H[?25h[?25l~                                                                                        [21;1H[?25h[?25l~                                                                                        [20;4H[?25h[?25l[m[21;1H[K[21;1H[?25h[?25l[22;1H[K[22;1H[?25h[?25l[23;1H[K[23;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H[?25h[22;1H[21;1H[20;1H[19;1H10)[?25l [?25h[?25lT[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lg[?25h[?25li[?25h[?25lv[?25h[?25le[?25h[?25ln[?25h[?25l [?25h[?25lp[?25h[?25le[?25h[?25lr[?25h[?25lm[?25h[?25li[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25l [?25h[?25l[?25h[?25l[19;28H[K[19;28H[?25h[?25l[19;27H[K[19;27H[?25h[?25l[19;26H[K[19;26H[?25h[?25l[?25h[?25l[19;24H[K[19;24H[?25h[?25l[19;23H[K[19;23H[?25h[?25l[19;22H[K[19;22H[?25h[?25l[19;21H[K[19;21H[?25h[?25l[19;20H[K[19;20H[?25h[?25l[19;19H[K[19;19H[?25h[?25l[19;18H[K[19;18H[?25h[?25l[19;17H[K[19;17H[?25h[?25l[19;16H[K[19;16H[?25h[?25l[19;15H[K[19;15H[?25h[?25l[?25h[?25l[19;13H[K[19;13H[?25h[?25l[19;12H[K[19;12H[?25h[?25l[19;11H[K[19;11H[?25h[?25l[19;10H[K[19;10H[?25h[?25l[19;9H[K[19;9H[?25h[?25l[?25h[?25l[19;7H[K[19;7H[?25h[?25l[19;6H[K[19;6H[?25h[?25l[19;5H[K[19;5H[?25h[?25lthe permission (given to all users) for the file co[?25h[?25l[20;23r[20;1H[L[1;24r[19;56Hntaining the OS version informatioo[20;1Hn[1;23r[23;1H
+[1;24r[24;11H[1m(paste) --[19;2H[?25h[?25l[m [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lR[?25h[?25lE[?25h[?25lA[?25h[?25lS[?25h[?25l[19;9H[K[19;9H[?25h[?25lD[?25h[24;1H[K[19;9H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 33L, 722C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Assignment1.txt" 33L, 722C[1;1HAssignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate files undd[15;1Her it.
+
+6)mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myFile.txt /mnt/scc[18;1Hratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+
+moved it up to the file above in Assignment1
+
+mv myFile.txt myDir3[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[23;1H
+[1;24r[24;1H[K[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H6) 71367 MiB[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1H9)Red Hat Enterprise Linux. Version: 8.6 (Ootpa).[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[1;1H[2M[1;24r[22;1H10) the permission (given to all users) for the file containing the OS version informatioo[23;1Hn is READ[17;1H[?25h
+[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h[?25l[1;23r[23;1H
+[1;24r[18;1H[?25h
+
+
+
+
+[22;1H[21;1H[20;1H[?25l[24;1H[1m-- INSERT --[20;1H[?25h[18;1H[m1
+
+
+[20;1H[18;2H0) 
+
+[?25l[18;23r[23;1H
+[1;24r[18;1H10) the permission (given to all users) for the file containing the OS version informatioo[19;1Hn is READ[23;1H[94m~                                                                                        [19;10H[?25h[?25l[m [?25h[?25lP[?25h[?25l[19;11H[K[19;11H[?25h[?25lp[?25h[?25le[?25h[?25lr[?25h[?25lm[?25h[?25li[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[24;1H[K[19;20H[?25l[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 32L, 732C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ 
+bash-4.4$ p[Kcd ..
+bash-4.4$ ls
+Assignment1  cmds.log  newfile.txt  sampleFile.txt  Worksheet1	Worksheet2  Worksheet3
+bash-4.4$ mv cmds.log Assignment1/
+bash-4.4$ cd ..[K[KAssignment1/
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  cmds.log  myDir  myDir2  myDir3
+bash-4.4$ exit
+exit
+
+Script done on 2023-09-20 23:06:10-04:00

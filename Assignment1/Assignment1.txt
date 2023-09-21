@@ -1,0 +1,32 @@
+Assignment 1
+
+1) mkdir Assignment1
+
+2) Output: /bin/bash
+Command: echo $SHELL
+
+2) Output:/mnt/scratch/FA23_CS131_Ashish/josephf23
+Command: echo $HOME
+
+4) ID: uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+Commands: id
+
+5) you allowed to cd in that directory. you can ls and ls -l it. you cant reate files under it.
+
+6)mv /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2/myFile.txt /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/
+
+moved it up to the file above in Assignment1
+
+mv myFile.txt myDir3
+
+
+
+6) 71367 MiB
+
+
+9)Red Hat Enterprise Linux. Version: 8.6 (Ootpa).
+
+10) the permission (given to all users) for the file containing the OS version information is READ permission
+
+
+

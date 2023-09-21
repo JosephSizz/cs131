@@ -1,0 +1,359 @@
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt ----- task #1
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ 
+bash-4.4$ pwdi
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ 
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  cmds.log  newfile.txt  sampleFile.txt  Worksheet1	Worksheet2  Worksheet3
+bash-4.4$ mv cmds.log Assignment1/
+bash-4.4$ cd Assignment1/
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  cmds.log  myDir  myDir2  myDir3
+bash-4.4$ exit
+exit
+
+Script done on 2023-09-20 23:06:10-04:00
+[josephf23@sjsu Assignment1]$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[josephf23@sjsu Assignment1]$ cat cmds.log 
+Script started on 2023-09-20 22:17:26-04:00
+bash: hello: command not found
+bash-4.4$ 
+bash-4.4$ ls
+cmds.log     index.html.1	      sampleProject	typescript
+cs131	     myproject		      sort.txt		worksheet2
+history.txt  results_eminen.txt       spotify-2023.csv
+index.html   resultwithoutEminem.txt  strace
+bash-4.4$ 
+bash-4.4$ ls
+cmds.log     index.html.1	      sampleProject	typescript
+cs131	     myproject		      sort.txt		worksheet2
+history.txt  results_eminen.txt       spotify-2023.csv
+index.html   resultwithoutEminem.txt  strace
+bash-4.4$ mv cmds.log cs131/
+bash-4.4$ 
+bash-4.4$ ls
+cs131	      myproject		       sort.txt		 worksheet2
+history.txt   results_eminen.txt       spotify-2023.csv
+index.html    resultwithoutEminem.txt  strace
+index.html.1  sampleProject	       typescript
+bash-4.4$ cd cs131/
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+ -----------> Task #1nment1
+bash-4.4$ 
+bash-4.4$ cd Assignment1/
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt
+bash-4.4$ 
+bash-4.4$ echo $SHELL   ----- task #2
+/bin/bash
+bash-4.4$ vi Assignment1.txt
+bash-4.4$ 
+bash-4.4$ echo $HOME ----- task #2
+/mnt/scratch/FA23_CS131_Ashish/josephf23
+bash-4.4$ vi Assignment1.txt
+bash-4.4$ 
+bash-4.4$ id   ----- task #3
+uid=1140(josephf23) gid=1140(josephf23) groups=1140(josephf23),77(S77)
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ 
+bash-4.4$ mkdir myDir ----- task #4
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ 
+bash-4.4$ cmod o-w myDir/ 
+bash: cmod: command not found
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ chmod o-w myDir/
+bash-4.4$ 
+bash-4.4$ cd myDir/
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir
+bash-4.4$ ls
+bash-4.4$ ls -l
+total 0
+bash-4.4$ touch coolfile.txt
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir
+bash-4.4$ ls
+coolfile.txt
+bash-4.4$ rm coolfile.txt 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ cd .
+bash-4.4$ cd ..
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ chmod u-w myDir  ----- task #4
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ cd myDir/
+bash-4.4$ 
+bash-4.4$ ls
+bash-4.4$ ls -l
+total 0
+bash-4.4$ touch newFile.txt
+touch: cannot touch 'newFile.txt': Permission denied
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ mkdir myDir2  ----- task #5
+bash-4.4$ mkdir myDir3
+bash-4.4$ cd myDir2
+bash-4.4$ ls
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2
+bash-4.4$ vi myFile.txt
+bash-4.4$ 
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ mv myFile.txt ~/Assignment1/myDir3/
+mv: cannot move 'myFile.txt' to '/mnt/scratch/FA23_CS131_Ashish/josephf23/Assignment1/myDir3/': No such file or directory
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ mv myFile.txt ~/
+bash-4.4$ 
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd myDir2
+bash-4.4$ ls
+bash-4.4$ ls
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ cd ..
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  newfile.txt     Worksheet1  Worksheet3
+cmds.log     sampleFile.txt  Worksheet2
+bash-4.4$ cd Assignment1/
+bash-4.4$ 
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ cd myDir2
+bash-4.4$ 
+bash-4.4$ myFile.txt
+bash: myFile.txt: command not found
+bash-4.4$ 
+bash-4.4$ touch myFile.txt
+bash-4.4$ 
+bash-4.4$ mv ~/Assignment1/myDir/myFile.txt ~/Assignment1/
+mv: cannot stat '/mnt/scratch/FA23_CS131_Ashish/josephf23/Assignment1/myDir/myFile.txt': No such file or directory
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2
+bash-4.4$ 
+bash-4.4$ 
+yFile.txt /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/t1/myDir2/my
+bash-4.4$ 
+bash-4.4$ ls
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/myDir2
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3	myFile.txt
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ cd my
+myDir/      myDir2/     myDir3/     myFile.txt  
+bash-4.4$ cd myDir2
+bash-4.4$ 
+bash-4.4$ ls
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ touch myFile.txt
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ 
+bash-4.4$ mv /m
+yFile.txt /mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1/        ----- task #6 
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3	myFile.txt
+bash-4.4$ mv myFile.txt myDir3
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd myDir3
+bash-4.4$ ls
+myFile.txt
+bash-4.4$ cd ..
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ man free     ----- task #6
+bash-4.4$ 
+bash-4.4$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       11318       10828        1011       49220       56769
+Swap:          4119        1007        3112
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ cat /etc/os-release  - ----- task #9
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt ----- task #10
+bash-4.4$ 
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/josephf23/cs131/Assignment1
+bash-4.4$ 
+bash-4.4$ vi Assignment1.txt 
+bash-4.4$ 
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  cmds.log  newfile.txt  sampleFile.txt  Worksheet1	Worksheet2  Worksheet3
+bash-4.4$ mv cmds.log Assignment1/
+bash-4.4$ cd Assignment1/
+bash-4.4$ 
+bash-4.4$ ls
+Assignment1.txt  cmds.log  myDir  myDir2  myDir3
+bash-4.4$ exit
+exit
+
+Script done on 2023-09-20 23:06:10-04:00
+[josephf23@sjsu Assignment1]$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+  923  touch Assignment2.txt
+  924  ls
+  925  find /etc -type f > one.txt 2> two.txt
+  926  ls
+  927  cat one.txt 
+  928  cat two.txt 
+  929  vi Assignment2.txt 
+  930  cd ..
+  931  ls
+  932  cd ..
+  933  ;s
+  934  ls
+  935  cd cs131/
+  936  ls
+  937  cd Assignment1
+  938  ls
+  939  cd ..
+  940  ls
+  941  clear
+  942  cd
+  943  ls
+  944  cd cs131/
+  945  ls
+  946  cd Worksheet2
+  947  ls
+  948  vi Global\ YouTube\ Statistics.csv 
+  949  cp Global\ YouTube\ Statistics.csv youtubeData.csv
+  950  ls
+  951  mv youtubeData.csv ..
+  952  ls
+  953  cd ..
+  954  ls
+  955  clear
+  956  ls
+  957  mv youtubeData.csv Assignment2
+  958  ls
+  959  cd Assignment2
+  960  ls
+  961  cut -d ',' -f 24,25 Global\ YouTube\ Statistics.csv | tail -n +2 | sort | uniq -c | sort -rn
+  962  cut -d ',' -f 24,25 Global\ YouTube\ Statistics.csv | ta
+  963  ls 
+  964  clear
+  965  cut -d ',' -f 24,25 Global\ YouTube\ Statistics.csv | tail -n +2 | sort | uniq -c | sort -rn
+  966  ls
+  967  cut -d ',' -f 24,25 Global\ YouTube\ Statistics.csv | tail -n +2 | sort | uniq -c | sort -rn
+  968  clear
+  969  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uni
+  970  clear
+  971  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uniq -c |clear
+  972  clear
+  973  cut -d ',' -f 24,25 yo 
+  974  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uniq -c | s
+  975  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uniq -c | sort -rn
+  976  clear
+  977  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uniq -c | sort -rn
+  978  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uniq -c | clear
+  979  cut -d ',' -f 24,25 youtubeData.csv | tail -n +2 | sort | uniq -c | sort -rn
+  980  vi youtubeData.csv 
+  981  cut -d ',' -f 23,24 youtubeData.csv | tail -n +2 | sort | uniq -c | sort -rn | head -n 3
+  982  cut -d ',' -f 23,24 "Global YouTube Statistics.csv" | tail -n +2 | grep -v "nan,nan" | sort | uniq -c | sort -nr | head -n 3
+  983  mv youtubeData.csv Global YouTube Statistics.csv
+  984  cls
+  985  ls
+  986  clear
+  987  ls
+  988  vi
+  989  vi youtubeData.csv 
+  990  cut -d',' -f22,23 youtubeData.csv | tail -n +2 | sort | uniq -c | sort -nr
+  991  clear
+  992  ls
+  993  vi youtubeData.csv 
+  994  clear
+  995  ls
+  996  clear
+  997  ls
+  998  cut -d',' -f23,24 youtubeData.csv | sort | uniq -c | sort -nr
+  999  cut -d',' -f23,24 youtubeData.csv | sort | uniq
+ 1000  clear
+ 1001  pwd
+ 1002  ls
+ 1003  cd cs131/
+ 1004  ls
+ 1005  cd Assignment2
+ 1006  pwd
+ 1007  ls
+ 1008  clear
+ 1009  ps -u
+ 1010  vi Assignment2.txt 
+ 1011  ps -u
+ 1012  vi Assignment2.txt 
+ 1013  ls
+ 1014  ps -p 1
+ 1015  pgrep systemd
+ 1016  ps aux | grep [s]ystemd
+ 1017  ps -e | grep systemd
+ 1018  ps aux | grep '[s]ystemd'
+ 1019  clear
+ 1020  ps aux | grep '[s]ystemd'
+ 1021  vi Assignment2.txt 
+ 1022  history | tail -n 100 > cmds.log

@@ -1,0 +1,28 @@
+1) a. it searches throught etc and all of its sub directors, then it redirects found file to one.txt, if there any errors then it redirects it to two.txt
+b. one.txt contains all file paths (no errors) in subdirectories, two contains any erros and info on it
+
+2) awk -F ',' '{print $21, $22}' youtubeData.csv | sort | uniq -c | sort -k1,1nr | head -n3
+
+9 May 12
+8 Dec 16
+8 Jul 21
+
+awk -F , reads file line by line. prints 21st and 22nd 
+pipes: gets the input and allows us to use it to either sort, get uniq, and head, etc
+sort : sorts that specific lines in order
+head: displays first 3 lines
+
+
+3) USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+josephf+ 1365225  0.0  0.0  19840  7936 pts/94   Ss   00:03   0:00 -bash
+josephf+ 1441918  0.0  0.0  25344  8000 pts/94   R+   00:26   0:00 ps -u
+
+
+4)b. we can now see the vim process and its and its process id. 
+Its process id is 1453112
+
+c. the vim process is now gone, and not showing up when we type ps -u. Its not there anymore because we quit the vim process (we terminated it, and wont run any more). 
+
+5) its the process that first boots up when the comptuer runs and contunines to run untill it shuts down. its job is to make sure everything runs (its like the manager). The process id for init is 1. The command i used to run it is : ps aux | grep '[s]ystemd'
+
+6) ps aux shows list of running processes, includeds id, cpu, user, time, etc.   

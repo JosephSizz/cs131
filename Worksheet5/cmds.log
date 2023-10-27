@@ -1,0 +1,68 @@
+  895  ls
+  900  ls
+  901  vi Global\ YouTube\ Statistics.csv 
+  902  touch script.sh
+  903  vi script.sh 
+  904  bash script.sh 
+  905  ls
+  906  vi ws5.txt 
+  907  vi script.sh 
+  908  bash script.sh 
+  909  :wq
+  910  vi script.sh 
+  911  bash script.sh 
+  912  vi script
+  913  rm script
+  916  ls
+  917  vi 1script.sh 
+  923  done
+  924  bash 1script.sh 
+  925  ls
+  928  ls
+  929  vi ws5.txt 
+  930  vi Comedy.txt 
+  931  cd ..
+  932  ls
+  936  ls
+  937  cd United\ States/
+  938  ls
+  939  vi Gaming.txt 
+  940  vi ws5.txt 
+  941  cd ..
+  942  ls
+  943  bash 1script.sh 
+  944  touch test.sh
+  945  ls
+  946  vi test.sh 
+  947  bash test.sh 
+  948  rm test.sh 
+  949  touch test.sh
+  950  vi test.sh 
+  951  bash test.sh 
+  952  rm test.sh 
+  953  celar
+  954  clear
+  955  rm
+  956  ls
+  957  cd cs131/
+  958  ls
+  959  cd Worksheet5
+  960  ls
+  961  clear
+  964  ls
+  965  cd Worksheet
+  966  cd Worksheet5
+  967  ls
+  970  vi script.sh 
+  971  bash script.sh 
+  972  vi script.sh 
+  973  bash script.sh 
+  974  ls
+  975  cd United\ States/
+  976  ls
+  981  clear
+  982  cd ..
+  983  ls
+  988  ls
+  989  clear
+  990  ls

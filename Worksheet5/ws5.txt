@@ -1,0 +1,5 @@
+count for each category
+26 United States/Gaming.txt
+22 United States/Comedy.txt
+65 United States/Entertainment.txt
+72 United States/Music.txt

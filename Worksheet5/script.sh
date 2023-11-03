@@ -5,7 +5,7 @@ categories=("Music" "Entertainment" "Gaming" "Comedy")
 mkdir -p "United States"
 
 
-
+#finds and seperates catergories into differnt files
 for category in "${categories[@]}"; do
 	
 	
@@ -19,7 +19,7 @@ for category in "${categories[@]}"; do
 	
 done	
 
-
+#prints num time into ws5
 echo "count for each category" > ws5.txt
 wc -l "United States/Gaming.txt" >> ws5.txt
 wc -l "United States/Comedy.txt" >> ws5.txt

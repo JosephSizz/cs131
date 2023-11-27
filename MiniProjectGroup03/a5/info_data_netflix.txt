@@ -1,0 +1,26 @@
+Numbers of movies    
+
+   
+   6131 Movie
+   2676 TV Show
+   
+
+
+total of entries : 
+
+8098
+
+
+total number of unique directores
+
+2594
+
+
+all coloumns:
+
+
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+
+
+
+ 
